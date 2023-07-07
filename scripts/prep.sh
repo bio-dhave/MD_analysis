@@ -18,10 +18,6 @@
 ##
 ## Notes:
 ##  The input files need to be prepared with the prep.sh.
-##  The $1 refers to the name of the files, that needs to be
-##    pass in command line when the script is executed. You
-##    can use this kind of trick assumin' your files have the
-##    same names.
 ##  The echo arguments refer to the number corresponding in
 ##    the complex' index (Gromacs files ndx), such as Protein 
 ##    or Backbone or others. 
@@ -31,6 +27,10 @@
 
 
 #!/bin/bash
+## ---------------------------
+
+$1=mytrajectory
+
 ## ---------------------------
 ## SET TIME
 ## input: the trajectory you want to analyze
