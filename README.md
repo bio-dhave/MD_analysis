@@ -18,4 +18,5 @@ For each analysis, a sample result has been provided.
 
 #### 💻 HOW
 To use this script, it is necessary to have a Unix-based OS (e.g., Ubuntu) and have the Gromacs suite installed. If you haven't done it yet, Gromacs is an open-source software that can be installed by running the command ```sudo apt-install gmx``` in the terminal.
+It is also necessary the VMD (Visual Molecular Dynamics) programme. You can install it referring to this [page](https://www.ks.uiuc.edu/Research/vmd/current/ig/ig.html).
 </p>
