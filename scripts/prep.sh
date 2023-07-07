@@ -38,7 +38,7 @@ $1=mytrajectory
 ##   trajectory to start from 0, allowing the further analyses to
 ##   not be misaligned.
 
-gmx trjcat -f $1.xtc -settime -o $1_time.xtc 
+echo "0 l" | nohup gmx trjcat -f $1.xtc -settime -o $1_time.xtc 
 
 ## ---------------------------
 ## EXTRACTION of THE FIRST FRAME
