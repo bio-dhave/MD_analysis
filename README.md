@@ -4,6 +4,7 @@ A simple package of scripts for analyzing classical molecular dynamics (MD) traj
 
 #### 🐢 WHAT
 This repository is created as a result of a project I participated in for structural analysis on the differences between hemoglobins of three species of iguanas living in different environmental conditions. In particular, the study aimed to understand the role of ATP in the structural stabilization of hemoglobin.
+
 (Yeah, tecnhically that emoji is a turtle, but the iguana's one is still missing).
 
 #### 🌊 WHY
@@ -18,5 +19,6 @@ For each analysis, a sample result has been provided.
 
 #### 💻 HOW
 To use this script, it is necessary to have a Unix-based OS (e.g., Ubuntu) and have the Gromacs suite installed. If you haven't done it yet, Gromacs is an open-source software that can be installed by running the command ```sudo apt-install gmx``` in the terminal.
+
 It is also necessary the VMD (Visual Molecular Dynamics) programme. You can install it referring to this [page](https://www.ks.uiuc.edu/Research/vmd/current/ig/ig.html).
 </p>
