@@ -17,7 +17,8 @@
 ## Gromacs version: 2022.5
 ##
 ## Notes:
-##  The input files need to be prepared with the prep.sh.
+##  The input files must be in xtc format, stripped of ions 
+##  and water.
 ##  The echo arguments refer to the number corresponding in
 ##    the complex' index (Gromacs files ndx), such as Protein 
 ##    or Backbone or others. 
