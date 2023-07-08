@@ -1,8 +1,10 @@
 # MD_analysis
 <p align="justify">
-A simple package of scripts for analyzing classical molecular dynamics (MD) trajectories
+A simple package of scripts for analyzing classical molecular dynamics (MD) trajectories 
 
 #### 🐢 WHAT
+<img align="right" src="https://media3.giphy.com/media/YztxmD3AAmnq8/giphy.gif?cid=ecf05e47jedaif3wllqjib35s13rnuodjt0hoz98tmgml4ry&ep=v1_gifs_search&rid=giphy.gif&ct=g" width=230>
+
 This repository is created as a result of a project I participated in for structural analysis on the differences between hemoglobins of three species of iguanas living in different environmental conditions. In particular, the study aimed to understand the role of ATP in the structural stabilization of hemoglobin.
 
 (Yeah, technically that emoji is a turtle, but the iguana's one is still missing).
