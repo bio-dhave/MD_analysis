@@ -1,0 +1,27 @@
+## ---------------------------
+##
+## Script name: saltbr.vmd
+##
+## Purpose of script:
+##    This code provides all inputs necessary to perform a
+##    salt bridges analysis with Salt Bridges plugin in VMD.
+##
+## Author: Davide Pietrafesa
+##
+## Date Created: 2023-07-01
+##
+## Copyright (c) Davide Pietrafesa, 2023
+## Email: davide.pietrafesa@uniroma2.it
+##
+## ---------------------------
+##
+## VMD version: 1.9.3
+##
+## ---------------------------
+
+package require saltbr
+set mysel [atomselect top protein]
+atomselect macro acidic "resname ASP GLU"
+atomselect macro basic "resname ARG HIS LYS HIE HID"
+saltbr -sel $mysel -upsel yes -ondist 4.0 -writefiles yes -log saltbr.log 
+exit
