@@ -18,7 +18,7 @@ This repository contains the scripts used for the analysis of molecular dynamics
 For each analysis, a sample result has been provided.
 
 #### 💻 HOW
-To use this script, it is necessary to have a Unix-based OS (e.g., Ubuntu) and have the Gromacs suite installed. If you haven't done it yet, Gromacs is an open-source software that can be installed by running the command ```sudo apt-install gmx``` in the terminal.
+To use this script, it is necessary to have a Unix-based OS (e.g., Ubuntu) and have the Gromacs suite installed. If you haven't done it yet, Gromacs is an open-source software that can be installed by running the command ```sudo apt-install gmx``` in the terminal. [Here](https://manual.gromacs.org/2022-current/index.html) you can check the Gromacs 2022.5 manual for everything else.
 
 It is also necessary the VMD (Visual Molecular Dynamics) programme. You can install it referring to this [page](https://www.ks.uiuc.edu/Research/vmd/current/ig/ig.html).
 </p>
