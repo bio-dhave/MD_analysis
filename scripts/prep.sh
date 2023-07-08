@@ -25,11 +25,11 @@
 ##
 ## ---------------------------
 
-
 #!/bin/bash
-## ---------------------------
 
-$1=mytrajectory
+$1=traj_species1
+$2=traj_species2
+$3=traj_species3
 
 ## ---------------------------
 ## SET TIME
@@ -38,7 +38,9 @@ $1=mytrajectory
 ##   trajectory to start from 0, allowing the further analyses to
 ##   not be misaligned.
 
-echo "0 l" | nohup gmx trjcat -f $1.xtc -settime -o $1_time.xtc 
+echo "0 l" | nohup gmx trjcat -f $1.xtc -settime -o $1_time.xtc
+echo "0 l" | nohup gmx trjcat -f $2.xtc -settime -o $2_time.xtc 
+echo "0 l" | nohup gmx trjcat -f $3.xtc -settime -o $3_time.xtc 
 
 ## ---------------------------
 ## EXTRACTION of THE FIRST FRAME
@@ -49,3 +51,6 @@ echo "0 l" | nohup gmx trjcat -f $1.xtc -settime -o $1_time.xtc
 ##  simulated complex.
 
 echo "0" | nohup gmx trjconv -s $1.pdb -f $1_time.xtc -dump 0 -o first_frame_$1.pdb
+echo "0" | nohup gmx trjconv -s $2.pdb -f $2_time.xtc -dump 0 -o first_frame_$2.pdb
+echo "0" | nohup gmx trjconv -s $3.pdb -f $3_time.xtc -dump 0 -o first_frame_$3.pdb
+
