@@ -1,0 +1,25 @@
+## ---------------------------
+##
+## Script name: hb.vmd
+##
+## Purpose of script:
+##    This code provides all inputs necessary to perform an 
+##    hydrogen bonds analysis with HBonds plugin in VMD.
+##
+## Author: Davide Pietrafesa
+##
+## Date Created: 2023-07-01
+##
+## Copyright (c) Davide Pietrafesa, 2023
+## Email: davide.pietrafesa@uniroma2.it
+##
+## ---------------------------
+##
+## VMD version: 1.9.3
+##
+## ---------------------------
+
+package require hbonds
+set mysel [atomselect top protein]
+hbonds -sel1 $mysel -writefile yes -dist 3.5 -ang 30 -plot no -log hb_protein.log -outfile hbonds_protein.dat -DA both -type none
+exit
