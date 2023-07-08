@@ -12,8 +12,8 @@ This repository contains the scripts used for the analysis of molecular dynamics
 - Root Mean Square Deviation (RMSD);
 - Root Mean Square Fluctuations (RMSF);
 - Principal Component Analysis (PCA);
-- Hydrogen bonds analysis;
-- Salt bridges analysis
+- Hydrogen bonds analysis (HB);
+- Salt bridges analysis (SB)
 
 For each analysis, a sample result has been provided.
 
